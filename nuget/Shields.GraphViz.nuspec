@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+    <metadata>
+        <id>Shields.GraphViz</id>
+        <version>1.0.0</version>
+        <title>GraphViz for .NET</title>
+        <authors>Timothy Shields</authors>
+        <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/timothy-shields/graphviz</projectUrl>
+        <iconUrl>https://www.gravatar.com/avatar/5e67a6d7eb5968245e751e05ba1c936b</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A .NET wrapper for GraphViz.  Easily enhance your applications with graph visualizations.</description>
+        <tags>graph visualization figure GraphViz</tags>
+    </metadata>
+</package>
