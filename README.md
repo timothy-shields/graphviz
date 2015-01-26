@@ -11,7 +11,11 @@ Graph graph = Graph.Undirected
 IRenderer renderer = new Renderer(graphVizBin);
 using (Stream file = File.Open("graph.png"))
 {
-    await renderer.RunAsync(graph, file, RendererLayouts.Dot, RendererFormats.Png, CancellationToken.None);
+    await renderer.RunAsync(
+        graph, file,
+        RendererLayouts.Dot,
+        RendererFormats.Png,
+        CancellationToken.None);
 }
 ```
 
