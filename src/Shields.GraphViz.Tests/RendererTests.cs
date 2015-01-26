@@ -33,7 +33,7 @@ namespace Shields.GraphViz.Tests
         [TestMethod]
         public async Task DotProducesCorrectPng()
         {
-            var graph = Graph.Undirected.Named("G")
+            var graph = Graph.Undirected
                 .Add(EdgeStatement.For("a", "b"))
                 .Add(EdgeStatement.For("a", "c"));
             using (var outputStream = new MemoryStream())
@@ -51,7 +51,7 @@ namespace Shields.GraphViz.Tests
         {
             var cts = new CancellationTokenSource();
             cts.Cancel();
-            var graph = Graph.Undirected.Named("G")
+            var graph = Graph.Undirected
                 .Add(EdgeStatement.For("a", "b"))
                 .Add(EdgeStatement.For("a", "c"));
             using (var outputStream = new MemoryStream())
