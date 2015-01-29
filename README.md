@@ -1,6 +1,7 @@
 [GraphViz]: http://www.graphviz.org/
+[Shields.GraphViz]: https://www.nuget.org/packages/Shields.GraphViz
 
-A .NET wrapper for [GraphViz][].
+[Shields.GraphViz][] is a .NET wrapper for [GraphViz][]. Easily enhance your applications with graph visualizations.
 
 # Example
 
