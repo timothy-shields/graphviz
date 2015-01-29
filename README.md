@@ -32,3 +32,9 @@ using (Stream file = File.Create("graph.png"))
 The output `graph.png` follows.
 
 ![graph.png](http://i.imgur.com/NjlQROO.png)
+
+# Features
+
+- A fluent API for defining graphs
+- Graphs and their components are immutable
+- Ready for dependency injection via the `IRenderer` interface
