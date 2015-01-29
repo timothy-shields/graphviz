@@ -38,4 +38,4 @@ The output `graph.png` follows.
 - Fluent API for defining graphs
 - Immutable graphs
 - Asynchronous renderer
-- `IRenderer` interface for easy dependency injection
+- `IRenderer` interface for easy dependency injection and mocking
