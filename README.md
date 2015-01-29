@@ -5,10 +5,17 @@
 
 # Example
 
+First define a graph.
+
 ```csharp
 Graph graph = Graph.Undirected
     .Add(EdgeStatement.For("a", "b"))
     .Add(EdgeStatement.For("a", "c"));
+```
+
+Then render the graph to a stream.
+
+```csharp
 IRenderer renderer = new Renderer(graphVizBin);
 using (Stream file = File.Open("graph.png"))
 {
@@ -19,5 +26,7 @@ using (Stream file = File.Open("graph.png"))
         CancellationToken.None);
 }
 ```
+
+The output `graph.png` follows.
 
 ![graph.png](http://i.imgur.com/NjlQROO.png)
