@@ -27,6 +27,8 @@ using (Stream file = File.Open("graph.png"))
 }
 ```
 
+> The location of your GraphViz installation, which is typically something like `C:\Program Files\Graphviz\bin`, should be supplied as the value of `graphVizBin`.
+
 The output `graph.png` follows.
 
 ![graph.png](http://i.imgur.com/NjlQROO.png)
