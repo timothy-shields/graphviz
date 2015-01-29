@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Shields.GraphViz")]
 [assembly: AssemblyDescription("A .NET wrapper for GraphViz. Easily enhance your applications with graph visualizations.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Timothy Shields (timothy.shields@live.com)")]
+[assembly: AssemblyCompany("Timothy Shields")]
 [assembly: AssemblyProduct("Shields.GraphViz")]
 [assembly: AssemblyCopyright("Copyright © 2015")]
 [assembly: AssemblyTrademark("")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.3")]
-[assembly: AssemblyFileVersion("1.0.0.3")]
+[assembly: AssemblyVersion("1.0.0.5")]
+[assembly: AssemblyFileVersion("1.0.0.5")]
