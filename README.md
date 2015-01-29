@@ -17,7 +17,7 @@ Then render the graph to a stream.
 
 ```csharp
 IRenderer renderer = new Renderer(graphVizBin);
-using (Stream file = File.Open("graph.png"))
+using (Stream file = File.Create("graph.png"))
 {
     await renderer.RunAsync(
         graph, file,
