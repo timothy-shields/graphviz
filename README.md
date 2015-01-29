@@ -35,7 +35,7 @@ The output `graph.png` follows.
 
 # Features
 
-- A fluent API for defining graphs
-- Graphs and their components are immutable
+- Fluent API for defining graphs
+- Immutable graphs
 - Asynchronous renderer
-- `IRenderer` interface makes dependency injection easy
+- `IRenderer` interface for easy dependency injection
