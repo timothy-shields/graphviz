@@ -3,6 +3,8 @@
 
 [Shields.GraphViz][] is a .NET wrapper for [GraphViz][]. Easily enhance your applications with graph visualizations.
 
+NuGet package ID: `Shields.GraphViz`
+
 # Example
 
 First define a graph.
