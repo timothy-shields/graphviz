@@ -30,7 +30,7 @@ namespace Shields.GraphViz.Tests
             renderer = new Lazy<IRenderer>(() => new Renderer(GraphVizBin));
         }
 
-        [TestMethod]
+        //[TestMethod]
         public async Task DotProducesCorrectPng()
         {
             var graph = Graph.Undirected
