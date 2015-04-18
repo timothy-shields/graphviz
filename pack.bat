@@ -1,1 +1,1 @@
-call nuget pack src\Shields.GraphViz\Shields.GraphViz.csproj -IncludeReferencedProjects -Verbosity detailed
+call nuget pack Shields.GraphViz\Shields.GraphViz.csproj -IncludeReferencedProjects -Verbosity detailed
