@@ -47,7 +47,9 @@ namespace Shields.GraphViz.Components
                 cancellationToken.Register(() =>
                 {
                     tcs.TrySetCanceled();
+#if !NETSTANDARD1_6
                     process.CloseMainWindow();
+#endif
                 });
                 using (var standardInput = process.StandardInput)
                 {
