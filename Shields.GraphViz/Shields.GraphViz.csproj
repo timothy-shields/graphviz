@@ -6,12 +6,13 @@
   <PropertyGroup>
     <Title>Shields.GraphViz</Title>
     <Description>Shields.GraphViz is a .NET wrapper for GraphViz. Easily enhance your applications with graph visualizations.</Description>
-    <PackageLicenseUrl>https://github.com/timothy-shields/graphviz/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/timothy-shields/graphviz</PackageProjectUrl>
+    <PackageIconUrl>https://www.gravatar.com/avatar/5e67a6d7eb5968245e751e05ba1c936b</PackageIconUrl>
     <RepositoryUrl>https://github.com/timothy-shields/graphviz</RepositoryUrl>
     <Authors>Timothy Shields</Authors>
     <Copyright>Copyright (c) 2015-2018 Timothy Shields</Copyright>
-    <PackageTags>GraphViz</PackageTags>
+    <PackageTags>graph;visualization;figure;GraphViz</PackageTags>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="System.Collections.Immutable" Version="1.5.0" />

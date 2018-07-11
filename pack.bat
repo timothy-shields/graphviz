@@ -1,1 +1,1 @@
-call nuget pack Shields.GraphViz\Shields.GraphViz.csproj -IncludeReferencedProjects -Prop Configuration=Release -Verbosity detailed
+dotnet pack --configuration Release -p:PackageVersion=2.0.0 --output ..
