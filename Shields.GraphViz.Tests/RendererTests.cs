@@ -1,13 +1,11 @@
 ﻿using System;
-using Shields.GraphViz.Components;
-using Shields.GraphViz.Services;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Collections.Generic;
 using System.Reflection;
+using Shields.GraphViz.Components;
+using Shields.GraphViz.Services;
 using Shields.GraphViz.Models;
 using NUnit.Framework;
 
@@ -17,7 +15,11 @@ namespace Shields.GraphViz.Tests
     public class RendererTests
     {
         private Lazy<IRenderer> renderer;
-        private const string GraphVizBin = @"C:\Program Files (x86)\Graphviz2.38\bin";
+        private static string GraphVizBin =
+            Path.Combine(
+                Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86),
+                "Graphviz2.38",
+                "bin");
 
         private IRenderer Renderer
         {
